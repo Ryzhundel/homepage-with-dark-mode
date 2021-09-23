@@ -18,6 +18,13 @@ body {
     height: 100vh;
 }
 
+body.dark-mode {
+    --light: #023047;
+    --dark: #F1FAEE;
+    --light-bg: #01141D;
+    --dark-bg: #fff;
+
+}
 .conteiner {
     width: 1166px;
     margin: 0 auto;
@@ -92,7 +99,7 @@ a.btn.light {
     opacity: 0;
     pointer-events: none;
     display: flex;
-
+    transition: all 500ms;
 }
 
 .nav-conteiner .dark-switch.active,
